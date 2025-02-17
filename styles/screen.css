@@ -2,7 +2,8 @@
 
 :root{
     --main-bg-color: #E9E9E9;
-    --second-bg-color: #D6D7D6;
+    --input-bg-color-dark: #D6D7D6;
+    --input-bg-color-light: #E2E2E2;
     --primary-text-color: #424242;
     --accent-color: #FF3F3C;
 }
@@ -83,10 +84,10 @@ p {
 }
 
 form {
-    margin: 0 auto 20px;
+    margin: 0 auto 40px;
     width: 800px;
     padding: 30px;
-    background-color: var(--second-bg-color);
+    background-image: linear-gradient(var(--input-bg-color-light), var(--input-bg-color-dark));
     border-radius: 15px;
 }
 
