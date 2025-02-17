@@ -2,6 +2,7 @@
 
 :root{
     --main-bg-color: #E9E9E9;
+    --second-bg-color: #D6D7D6;
     --primary-text-color: #424242;
     --accent-color: #FF3F3C;
 }
@@ -79,4 +80,31 @@ p {
 .details ul li.photo {
     background: url('photo-film-solid.svg') no-repeat center left;
     background-size: contain;
+}
+
+form {
+    margin: 0 auto 20px;
+    width: 800px;
+    padding: 30px;
+    background-color: var(--second-bg-color);
+    border-radius: 15px;
+}
+
+.b {
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
+    border: none;
+    font-size: 1.2em;
+    height: 50px;
+    width: 24%;
+    margin-left: 1%;
+}
+
+.t {
+    border: none;
+    font-size: 1.2em;
+    height: 50px;
+    width: 72%;
+    margin-left: 1%;
+    text-indent: 10px;
 }
